@@ -1,0 +1,229 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+:root {
+  --pink-color: #fec1b2;
+  --red-color: #ff0000;
+}
+
+.bg-pink {
+  background-color: var(--pink-color);
+}
+
+/* Text Preset */
+.text-md {
+  font-size: 18px;
+}
+
+.text-lg {
+  font-size: 24px;
+}
+
+.text-xl {
+  font-size: 32px;
+}
+
+.text-xxl {
+  font-size: 56px;
+}
+
+.text-color-red {
+  color: var(--red-color);
+}
+
+.text-color-white {
+  color: whitesmoke;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+/* Text Preset */
+
+/* Spacing Preset */
+.p-4 {
+  padding: 1.2rem;
+}
+
+.mb-2 {
+  margin-bottom: 1rem;
+}
+
+.mb-4 {
+  margin-bottom: 1.7rem;
+}
+
+.my-3 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+/* Spacing Preset */
+
+.h-full {
+  height: 100vh;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  outline: none;
+  border: none;
+}
+
+.start {
+  width: 80px;
+  height: 80px;
+}
+
+.rounded-full {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.shadow-md {
+  box-shadow: 0 4px 30px rgba(243, 158, 158, 0.3);
+  backdrop-filter: blur(5px);
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.message-box {
+  max-width: 325px;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 1rem;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.rounded-xl {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.border-red {
+  border: 2px solid var(--red-color);
+}
+
+.next {
+  background: var(--red-color);
+  color: white;
+  transition: all .2s;
+}
+
+.next:hover, .next:active {
+  border: 2px solid var(--red-color);
+  background: white;
+  color: var(--red-color);
+  transition: all .2s;
+  -webkit-transition: all .2s;
+  -moz-transition: all .2s;
+  -ms-transition: all .2s;
+  -o-transition: all .2s;
+}
+
+.hide {
+  display: none;
+}
+
+.transition-out {
+  animation: fadeOut 1.5s normal;
+  -webkit-animation: fadeOut 1.5s normal;
+}
+
+.transition-in {
+  animation: fadeIn 1.5s normal;
+  -webkit-animation: fadeIn 1.5s normal;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+
+  20% {
+    opacity: 0.75;
+  }
+
+  40% {
+    opacity: 0.5;
+  }
+
+  60% {
+    opacity: 0.25;
+  }
+
+  80% {
+    opacity: 0.1;
+  }
+
+  100% {
+    opacity: 0.05;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0.05;
+  }
+
+  20% {
+    opacity: 0.2;
+  }
+
+  40% {
+    opacity: 0.25;
+  }
+
+  60% {
+    opacity: 0.5;
+  }
+
+  80% {
+    opacity: 0.75;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
